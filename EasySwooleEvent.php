@@ -21,6 +21,7 @@ use EasySwoole\Socket\Dispatcher;
 use swoole_server;
 use swoole_websocket_frame;
 use \Exception;
+use EasySwoole\EasySwoole\ServerManager;
 
 class EasySwooleEvent implements Event
 {

@@ -42,7 +42,7 @@ return [
 
     // 当前的域名
     'HOST'           => 'http://127.0.0.1:9501',
-    'WEBSOCKET_HOST' => 'ws://127.0.0.1:9501',
+    'WEBSOCKET_HOST' => 'ws://8.210.195.192:9504',
 
 
     'CHECK_EMAIL'   => true,

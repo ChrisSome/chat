@@ -14,7 +14,7 @@ class Index extends Base
 {
     function index()
     {
-        $hostName = $this->cfgValue('WEBSOCKET_HOST', 'ws://127.0.0.1:9501');
+        $hostName = $this->cfgValue('WEBSOCKET_HOST', 'ws://8.210.195.192:9504');
         $this->render('index', [
             'server' => $hostName
         ]);

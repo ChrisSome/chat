@@ -350,6 +350,7 @@
                 var textInput = $('#text-input');
                 var content = textInput.val();
                 if (content.trim() !== '') {
+                    console.log(websocketInstance)
                     if (this.websocketInstance && this.websocketInstance.readyState === 1) {
                         this.broadcastTextMessage(content);
                         textInput.val('');
